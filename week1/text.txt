@@ -1,0 +1,258 @@
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop
+$ cd pepweeks
+bash: cd: pepweeks: No such file or directory
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop
+$ cd prepWeeks
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks
+$ git init
+Initialized empty Git repository in C:/Users/ntwar/Desktop/prepWeeks/.git/
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks (master)
+$ git add CV
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks (master)
+$ git commit -m "cv folder"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks (master)
+$ ls -a
+.  ..  .git  Bootcamp-Primer  CV  English  Typing
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks (master)
+$ ls
+Bootcamp-Primer  CV  English  Typing
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks (master)
+$ cd Bootcamp-Primer/
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Bootcamp-Primer (master)
+$ ls
+CssFlags  daily-planet-editor-master  grocery-store-js  Newsies  sillyCia2
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Bootcamp-Primer (master)
+$ git add CssFlags
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Bootcamp-Primer (master)
+$ git commit -m "Css Flags ecercise"
+[master (root-commit) ee0b11c] Css Flags ecercise
+ 2 files changed, 203 insertions(+)
+ create mode 100644 Bootcamp-Primer/CssFlags/index.html
+ create mode 100644 Bootcamp-Primer/CssFlags/style.css
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Bootcamp-Primer (master)
+$ git add Newsies
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Bootcamp-Primer (master)
+$ git commit m "newsies exercise"
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec 'newsies exercise' did not match any file(s) known to git
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Bootcamp-Primer (master)
+$ git commit -m "newsies exercise"
+[master 71cd774] newsies exercise 
+ 3 files changed, 86 insertions(+)
+ create mode 100644 Bootcamp-Primer/Newsies/index.html
+ create mode 100644 Bootcamp-Primer/Newsies/style.css
+ create mode 100644 Bootcamp-Primer/Newsies/vvvvv.png
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Bootcamp-Primer (master)
+$ git add grocery-store-js
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Bootcamp-Primer (master)
+$ git commit -m "grocery store JavaScript ecercise"
+[master 832cd0e] grocery store JavaScript ecercise
+ 1 file changed, 10 insertions(+)
+ create mode 100644 Bootcamp-Primer/grocery-store-js/index.js
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Bootcamp-Primer (master)
+$ git add daily-planet-editor-master
+warning: LF will be replaced by CRLF in Bootcamp-Primer/daily-planet-editor-master/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Bootcamp-Primer/daily-planet-editor-master/paper.js.
+The file will have its original line endings in your working directory
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Bootcamp-Primer (master)
+$ git commit -m "daily planet exercise"
+[master 15eb3f0] daily planet exercise
+ 3 files changed, 58 insertions(+)
+ create mode 100644 Bootcamp-Primer/daily-planet-editor-master/.gitignore
+ create mode 100644 Bootcamp-Primer/daily-planet-editor-master/README.md
+ create mode 100644 Bootcamp-Primer/daily-planet-editor-master/paper.js
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Bootcamp-Primer (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        sillyCia2/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Bootcamp-Primer (master)
+$ git add sillyCia2
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Bootcamp-Primer (master)
+$ git commit -m "silly cia exercise"
+[master 814254c] silly cia exercise
+ 3 files changed, 78 insertions(+)
+ create mode 100644 Bootcamp-Primer/sillyCia2/g.png
+ create mode 100644 Bootcamp-Primer/sillyCia2/index.html
+ create mode 100644 Bootcamp-Primer/sillyCia2/style.css
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Bootcamp-Primer (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Bootcamp-Primer (master)
+$ cd ..
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        English/
+        Typing/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks (master)
+$ cd English
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/English (master)
+$ ls
+english.png
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/English (master)
+$ git add english.png
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/English (master)
+$ git commit -m "english certificate Udemy course"
+[master fefd277] english certificate Udemy course
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 English/english.png
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/English (master)
+$ cd ..
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks (master)
+$ cd Typing
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Typing (master)
+$ ls
+typing.png
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Typing (master)
+$ git add typing.png
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Typing (master)
+$ git commit -m "typing certificate from www.typing.com"
+[master 378f555] typing certificate from www.typing.com
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Typing/typing.png
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/Typing (master)
+$ cd ..
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks (master)
+$ git log --oneline
+378f555 (HEAD -> master) typing certificate from www.typing.com
+fefd277 english certificate Udemy course
+814254c silly cia exercise
+15eb3f0 daily planet exercise
+832cd0e grocery store JavaScript ecercise
+71cd774 newsies exercise
+ee0b11c Css Flags ecercise
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks (master)
+$ cd CV
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/CV (master)
+$ ls
+Powercoders-CV.pdf
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/CV (master)
+$ git add Powercoders-CV.pdf
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/CV (master)
+$ git commit -m "CV"
+[master 89b1c08] CV
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 CV/Powercoders-CV.pdf
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/CV (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/CV (master)
+$ git log --oneline
+89b1c08 (HEAD -> master) CV
+378f555 typing certificate from www.typing.com
+fefd277 english certificate Udemy course
+814254c silly cia exercise
+15eb3f0 daily planet exercise
+832cd0e grocery store JavaScript ecercise
+71cd774 newsies exercise
+ee0b11c Css Flags ecercise
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/CV (master)
+$ git log --stat
+commit 89b1c087986142881117ac6b9035c7226fdb36c5 (HEAD -> master)
+Author: Jean Cedric Ntwari <cedric.ntwari@powercoders.org>
+Date:   Sun Mar 29 13:05:50 2020 +0200
+
+    CV
+
+ CV/Powercoders-CV.pdf | Bin 0 -> 107003 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 378f55524f8d4d80a46feb8e427e0ea9cedbbe75
+Author: Jean Cedric Ntwari <cedric.ntwari@powercoders.org>
+Date:   Sun Mar 29 12:52:53 2020 +0200
+
+    typing certificate from www.typing.com
+
+ Typing/typing.png | Bin 0 -> 580379 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit fefd277d5be1b947aa491d9c582dadd102611529
+Author: Jean Cedric Ntwari <cedric.ntwari@powercoders.org>
+Date:   Sun Mar 29 12:50:43 2020 +0200
+
+    english certificate Udemy course
+
+ English/english.png | Bin 0 -> 953532 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 814254cc63eeabecbf6852a9359ba8120935762f
+Author: Jean Cedric Ntwari <cedric.ntwari@powercoders.org>
+Date:   Sun Mar 29 12:41:05 2020 +0200
+
+
+ntwar@DESKTOP-5SGB466 MINGW64 ~/desktop/prepWeeks/CV (master)
+$ git log --patch
