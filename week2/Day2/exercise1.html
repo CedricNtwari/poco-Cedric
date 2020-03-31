@@ -68,7 +68,33 @@
           <h3>Adressdaten</h3>
 
           <label for="firma">Firma</label>
-          <input type="text" name="firma" id="firma">
+          <input type="text" name="firma" id="firma" required>
+
+          <label for="zusatz">Zusatz Firma</label>
+          <input type="text" name="zusatz" id="zusatz" placeholder="optional">
+
+          <label for="home">Homepage</label>
+          <input type="text" name="home" id="home" placeholder="optional">
+ 
+          <label for="adress">Adress / Haus Nr</label>
+          <input type="text" name="adress" id="adress" required>
+          <input type="text" name="haus" id="haus" placeholder="33">
+
+          <label for="zuadress">Zusatz Adress</label>
+          <input type="text" name="zuadress" id="zuadress" placeholder="optional">
+
+          <label for="post">Postfach</label>
+          <input type="text" name="post" id="post" placeholder="optional">
+
+          <label for="plz">PLZ / Ort</label>
+          <input type="text" name="plz" id="plz" placeholder="8800">
+          <input type="text" name="ort" id="ort" placeholder="Mustersstadt">
+
+          <label for="kanton">Kanton / Land</label>
+          <input type="text" name="kanton" id="kanton" placeholder="ZH">
+          <input type="text" name="land" id="land" placeholder="Schweiz">
+
        </section>
+       <input type="button" value="Speichern">
   </body>
 </html>
