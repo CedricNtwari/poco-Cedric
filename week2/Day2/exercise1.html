@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -10,32 +10,65 @@
          <h4>Profil</h4>
          <p>Hier Konnen ihre adress....</p> 
       </header>
+
+                         <!-- section personliche -->
+
       <section>
           <h3>Pers&ouml;nliche Daten</h3>
-          <form action="" method="POST">
+          <form action="exercise1.html" method="POST">
               <label for="titel">Titel</label>
               <input type="text" name="titel" id="titel" placeholder="Dr. hc" required>
-
-              <label for="vorname">Vorname</label>
-              <input type="text" name="vorname" id="vorname" placeholder="Peter">
 
               <label for="vorname">Vorname</label>
               <input type="text" name="vorname" id="vorname" placeholder="Peter" required>
 
               <label for="nachname">Nachname</label>
-              <input type="text" name="nachname" id="nachname" placeholder="Muster">
+              <input type="text" name="nachname" id="nachname" placeholder="Muster" required>
 
-              <label for="geschlecht">Geschlecht</label>
-              <input type="button" value="W">
-              <input type="button" value="M"> 
-              <!-- i will preferred to use checkbox or radio -->
+              <!-- <label for="geschlecht">Geschlecht</label>
+              <input type="button" value="W" >
+              <input type="button" value="M" >  -->
+              <!--use checkbox or radio -->
 
-              <label for="sprache">Sprache</label>
-              <input type="button" value="DE">
-              <input type="button" value="FR">
-              <input type="button" value="FR">
-              <!-- i will preferred to use checkbox or radio -->
+              <!-- <label for="sprache">Sprache</label>
+              <input type="button" value="DE"  >
+              <input type="button" value="FR"  >
+              <input type="button" value="FR"  > -->
+              <!--use checkbox or radio -->
           </form>
       </section>
+       
+                           <!-- section kontaktdaten -->
+      <section>
+        <h3>Kontaktdaten</h3>
+
+        <label for="telefon">Telefon</label>
+        <input type="tel" name="telefon" id="telefon" placeholder="123-45-678"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required >
+      
+        <label for="mobile">Mobile</label>
+        <input type="tel" name="mobile" id="mobile" placeholder="optional">
+
+        <label for="haupt">Hauptnummer</label>
+        <input type="tel" name="haupt" id="haupt" placeholder="optional">
+
+        <label for="fax">Fax</label>
+        <input type="tel" name="fax" id="fax" placeholder="optional">
+
+        <label for="mail1">Mail 1</label>
+        <input type="email" name="mail1" id="mail1" required>
+
+        <label for="mail2">Mail 2</label>
+        <input type="email" name="mail2" id="mail2" required>
+        
+      </section>
+
+                  <!-- section adress -->
+        <section>
+          <h3>Adressdaten</h3>
+
+          <label for="firma">Firma</label>
+          <input type="text" name="firma" id="firma">
+       </section>
   </body>
 </html>
