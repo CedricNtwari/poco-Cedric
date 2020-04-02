@@ -3,98 +3,104 @@
   <head>
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>title</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="/week2/Day2/style.css">
   </head>
   <body>
+    <div class="content">
       <header>
          <h4>Profil</h4>
-         <p>Hier Konnen ihre adress....</p> 
+         <p>Hier Konnen ihre adress Ihre Adress-Angaben einsehen und anpassen.</p> 
       </header>
 
                          <!-- section personliche -->
     <main>
-      <section>
+      <section class="form">
           <h3>Pers&ouml;nliche Daten</h3>
           <form action="exercise1.html" method="POST">
               <label for="titel">Titel</label>
-              <input type="text" name="titel" id="titel" placeholder="Dr. hc" required>
+              <input type="text" name="titel" id="titel" placeholder="Dr. hc" required> <br><br>
 
               <label for="vorname">Vorname</label>
-              <input type="text" name="vorname" id="vorname" placeholder="Peter" required>
+              <input type="text" name="vorname" id="vorname" placeholder="Peter" required> <br><br>
 
               <label for="nachname">Nachname</label>
-              <input type="text" name="nachname" id="nachname" placeholder="Muster" required>
+              <input type="text" name="nachname" id="nachname" placeholder="Muster" required> <br><br>
 
-              <label for="gender">Geschlecht</label>
-              <input type="checkbox" name="female" id="gender" value="W">
+              <label>Geschlecht</label>
+              <input type="checkbox" name="female" id="masculine" value="W">
+              <label for="female">W</label>
               <input type="checkbox" name="male" id="male" value="M">
+              <label for="male">M</label> <br><br>
 
-              <label for="sprache">Sprache</label>
-              <input type="checkbox" name="deutsch" id="sprache" value="DE"  >
-              <input type="checkbox" value="FR" id="french"  >
-              <input type="checkbox" value="EN" id="english"  >
-             
+              <label>Sprache</label>
+              <input type="checkbox" name="deutsch" id="sprache" value="DE">
+              <input type="checkbox" name="french" value="FR" id="french">
+              <input type="checkbox" name="english" value="EN" id="english">
+              
           </form>
       </section>
        
                            <!-- section kontaktdaten -->
-      <section>
+      <section class="contact">
         <h3>Kontaktdaten</h3>
 
         <label for="telefon">Telefon</label>
         <input type="tel" name="telefon" id="telefon" placeholder="123-45-678"
-        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required >
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required > <br><br>
       
         <label for="mobile">Mobile</label>
-        <input type="tel" name="mobile" id="mobile" placeholder="optional">
+        <input type="tel" name="mobile" id="mobile" placeholder="optional"><br><br>
 
         <label for="haupt">Hauptnummer</label>
-        <input type="tel" name="haupt" id="haupt" placeholder="optional">
+        <input type="tel" name="haupt" id="haupt" placeholder="optional"><br><br>
 
         <label for="fax">Fax</label>
-        <input type="tel" name="fax" id="fax" placeholder="optional">
+        <input type="tel" name="fax" id="fax" placeholder="optional"> <br><br>
+
 
         <label for="mail1">Mail 1</label>
-        <input type="email" name="mail1" id="mail1" required>
+        <input type="email" name="mail1" id="mail1" required> <br><br>
 
         <label for="mail2">Mail 2</label>
-        <input type="email" name="mail2" id="mail2" required>
+        <input type="email" name="mail2" id="mail2" required> <br><br>
         
       </section>
 
                   <!-- section adress -->
-        <section>
+        <section class="adress">
           <h3>Adressdaten</h3>
 
           <label for="firma">Firma</label>
-          <input type="text" name="firma" id="firma" required>
+          <input type="text" name="firma" id="firma" required> <br><br>
 
           <label for="zusatz">Zusatz Firma</label>
-          <input type="text" name="zusatz" id="zusatz" placeholder="optional">
+          <input type="text" name="zusatz" id="zusatz" placeholder="optional"> <br><br>
 
           <label for="home">Homepage</label>
-          <input type="text" name="home" id="home" placeholder="optional">
+          <input type="text" name="home" id="home" placeholder="optional"> <br><br>
  
           <label for="adress">Adress / Haus Nr</label>
           <input type="text" name="adress" id="adress" required>
-          <input type="text" name="haus" id="haus" placeholder="33">
+          <input type="text" name="haus" id="haus" placeholder="33"> <br><br>
 
           <label for="zuadress">Zusatz Adress</label>
-          <input type="text" name="zuadress" id="zuadress" placeholder="optional">
+          <input type="text" name="zuadress" id="zuadress" placeholder="optional"> <br><br>
 
           <label for="post">Postfach</label>
-          <input type="text" name="post" id="post" placeholder="optional">
+          <input type="text" name="post" id="post" placeholder="optional"> <br><br>
 
           <label for="plz">PLZ / Ort</label>
           <input type="text" name="plz" id="plz" placeholder="8800">
-          <input type="text" name="ort" id="ort" placeholder="Mustersstadt">
+          <input type="text" name="ort" id="ort" placeholder="Mustersstadt"> <br><br>
 
           <label for="kanton">Kanton / Land</label>
           <input type="text" name="kanton" id="kanton" placeholder="ZH">
-          <input type="text" name="land" id="land" placeholder="Schweiz">
+          <input type="text" name="land" id="land" placeholder="Schweiz"> <br><br>
 
        </section>
-       <input type="button" value="Speichern">
+       <input id="btn" type="button" value="Speichern">
       </main>
+    </div>
   </body>
 </html>
