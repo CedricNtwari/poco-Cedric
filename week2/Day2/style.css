@@ -67,6 +67,9 @@ header::after{
     border-left-style: hidden;
     border-bottom-style: groove;
 }
+.form input:focus{
+    outline: none;
+}
 
     /* section Kontaktdaten */
 
@@ -89,6 +92,12 @@ header::after{
     border-right-style: hidden;
     border-left-style: hidden;
     border-bottom-style: groove;
+}
+.contact input:focus{
+    outline: none;
+}
+#telefon, #mail1{
+    border-bottom-style: solid;
 }
 
 
@@ -113,7 +122,26 @@ header::after{
     border-left-style: hidden;
     border-bottom-style: groove;
 }
-
+.adress input:focus{
+    outline: none;
+}
+#firma{
+    border-bottom-style: solid;
+}
+#plz{
+    width: 50px;
+}
+#ort{
+ width: 335px;
+ left: 700px;
+}
+#adress{
+    width: 330px;
+}
+#haus{
+    width: 50px;
+    left: 980px;
+}
 
          /* red button */
 #btn{
@@ -123,4 +151,13 @@ header::after{
     color: white;
     padding: 20px;
 }
+
+    /* icons */
+i{
+    color: black;
+    position: absolute;
+    right: 230px;
+    cursor: pointer;
+}
+
         
