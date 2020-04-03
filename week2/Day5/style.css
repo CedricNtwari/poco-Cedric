@@ -1,0 +1,18 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+header{
+    background-color: cadetblue;
+}
+main{
+    background-color: cornflowerblue;
+    flex: 1;
+}
+footer{
+    bottom: 0;
+    background-color: darkcyan;
+}
