@@ -1,0 +1,163 @@
+html{
+    background :#f2f2f2;
+    box-sizing: border-box;
+    font-size : 10px;
+    line-height : 1;
+    height : 100%;
+    scroll-behavior: smooth;
+    overflow-x : hidden;
+    width : 100%;
+}
+body{
+    color : gray;
+    font-family : Helvetica, Arial, sans-serif;
+    font-weight : 400;
+    font-size : 2rem;
+    line-height : 1.47;
+    margin : 0;
+    padding : 0;
+    scroll-behavior: smooth;
+}
+.content{
+    background-color: white;
+    margin: 40px;
+   padding: 100px;   
+}
+label{
+    float: left;
+    width: 50%;
+}
+input:not([type="radio"]){
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    width: 400px;
+    height: 25px;
+}
+input:focus{
+    outline: none;
+}
+h3{
+    color: black;
+}
+i{
+    color: black;
+    cursor: pointer;
+}
+
+
+                  /* end general rules */
+                  /* start header  */
+
+header h4::before{
+     content: "";
+     display: block;
+    background-color: black;
+    width: 150px;
+     height: 10px;
+}
+header h4{
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+ }
+header p{
+   color: black;
+  padding-bottom: 20px;
+  }
+ header::after{
+     content: "";
+     display: block;
+     background-color: black;
+     width: 90%;
+    height: 5px;
+ }
+ 
+      /* section personnliche */
+.radio-label{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    border: 1px solid darkgray;
+    text-align: center;
+    cursor: pointer;
+}
+.radio-label:hover{
+    border-bottom: 2px solid salmon;
+}
+input:checked + label{
+     border-bottom: 2px solid red;
+}
+.radio-la{
+    display: inline-block;
+    width: 132px;
+    height: 30px;
+    border: 1px solid darkgray;
+    text-align: center;
+    cursor: pointer;
+}
+.radio-la:hover{
+    border-bottom: 2px solid salmon;
+}
+
+
+#male,#female,#sprache,#french,#english{
+    position: fixed;
+    top: 0;
+    left: 0;
+    clip: rect(0 0 0 0);
+}
+      /* section kontakt */
+.contact::before{
+        content: "";
+        display: block;
+        background-color: black;
+        width: 90%;
+        height: 5px;
+}
+ #telefon, #mail1{
+    border-bottom-style: solid;
+}
+
+      /* section adress */
+.adress::before{
+        content: "";
+        display: block;
+        background-color: black;
+        width: 90%;
+        height: 5px;
+}
+#firma{
+    border-bottom-style: solid;
+}
+#plz{
+    width: 50px;
+}
+#ort{
+ width: 350px;
+ left: 700px;
+}
+#adress{
+    width: 350px;
+}
+#haus{
+    width: 45px;
+    left: 980px;
+}
+#kanton{
+    width: 50px;
+}
+#land{
+    width: 350px;
+}
+
+           /* button */
+
+#btn{
+    position: relative ;
+    right: -800px;
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
