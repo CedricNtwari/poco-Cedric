@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Document</title>
-    <link rel="stylesheet" href="/week2/Day2/style.css">
+    <link rel="stylesheet" href="/week2/Day2/index.css">
     <script src="https://kit.fontawesome.com/05805e8fb1.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -28,24 +28,25 @@
               <label for="nachname">Nachname</label>
               <input type="text" name="nachname" id="nachname" placeholder="Muster" required> <br><br>
 
-              <label>Geschlecht</label>
-              <input type="checkbox" name="female" id="masculine" value="W">
-              <label for="female">W</label>
-              <input type="checkbox" name="male" id="male" value="M">
-              <label for="male">M</label> <br><br>
+              <label class="gender">Geschlecht</label>
+              <input type="radio" name="female" id="female" value="W">
+              <label class="radio-label" for="female">W</label>
+              <input type="radio" name="male" id="male" value="M">
+              <label class="radio-label" for="male">M</label> <br><br>
 
-              <label>Sprache</label>
-              <input type="checkbox" name="deutsch" id="sprache" value="DE">
-              <input type="checkbox" name="french" value="FR" id="french">
-              <input type="checkbox" name="english" value="EN" id="english">
-              
+              <label class="language">Sprache</label>
+              <input type="radio" name="deutsch" value="DE" id="sprache">
+              <label class="radio-la" for="sprache">DE</label>
+              <input type="radio" name="french" value="FR" id="french">
+              <label class="radio-la" for="french">FR</label>
+              <input type="radio" name="english" value="EN" id="english">
+              <label class="radio-la" for="english">EN</label>
           </form>
-      </section>
+      </section><br><br>
        
                            <!-- section kontaktdaten -->
       <section class="contact">
         <h3>Kontaktdaten</h3>
-
         <label for="telefon">Telefon</label>
         <input type="tel" name="telefon" id="telefon"
         pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><i class="fas fa-window-close"></i> <br><br>
@@ -100,8 +101,8 @@
           <input type="text" name="land" id="land" placeholder="Schweiz"> <br><br>
 
        </section>
-       <input id="btn" type="button" value="Speichern">
       </main>
+      <button id="btn">Speichern</button>
     </div>
   </body>
 </html>
