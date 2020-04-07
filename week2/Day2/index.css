@@ -161,3 +161,7 @@ input:checked + label{
     color: white;
     padding: 20px;
 }
+#btn:active{
+   background: white;
+   color: red;
+}

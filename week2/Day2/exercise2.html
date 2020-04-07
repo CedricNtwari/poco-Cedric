@@ -3,57 +3,58 @@
   <head>
     <meta charset="UTF-8">
     <script src="https://kit.fontawesome.com/05805e8fb1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/week2/Day2/styleEx.css">
     <title>My Blog</title>
   </head>
   <body>
                    <!--start header-->
 
   <header id="home">
-      <nav>
+      <nav class="first">
+        <a id="img" href="#"><img style="width: 80px; height: 40px;" src="/img/logo.png" alt="logo"></a>
           <ul>
-              <li><a href="#"><img src="/" alt="logo"></a></li>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#work">Work</a></li>
-              <li><a href="#myBlog">My Blog</a></li>
+              <li><a href="#home">Home</a></li><span>/</span>
+              <li><a href="#about">About</a></li><span>/</span>
+              <li><a href="#work">Work</a></li></li><span>/</span>
+              <li><a href="#myBlog">My Blog</a></li></li><span>/</span>
               <li><a href="#contact">Contact</a></li>
           </ul>
       </nav>
 
            <!--start slide-->
 
-      <ul>
+      <ul class="second">
           <li>
-              <img src="/" alt="first image">
-              <h3>Hi, i'm AB de Villiers</h3>
+              <h2>Hi, i'm AB de Villiers</h2>
               <p>I'm digital, web developer , art director and passionate geek hailing from South Africa.</p>
               <input type="button" value="HIRE ME">
           </li>
-          <li>
+          <!-- <li>
             <img src="/" alt="second image">
             <h4>I'm a web design</h4>
           </li>
           <li>
             <img src="/" alt="third image">
-            <h4>I'm a web developer</h4>
-          </li>
+            <h4>And a web developer</h4>
+          </li> -->
       </ul>
   </header>
-    
+ 
   <main>
 
             <!-- section about -->
 
       <section id="about">
-        <h3 class="uppercase">i design digital & print production.</h3>
-       <div class="left">
-         <img src="/" alt="computer image">
-         <i class="fab fa-facebook"></i>
-         <i class="fab fa-twitter"></i>
-         <i class="fab fa-linkedin-in"></i>
+        
+        <div class="left">
+         <img src="/img/co.png" style="width: 300px; height: 230px;" alt="computer image">
+         <!-- <a href="#"><i class="fab fa-facebook"></i></a>
+         <a href="#"><i class="fab fa-twitter"></i></a>
+         <a href="#"><i class="fab fa-linkedin-in"></i></a> -->
        </div>
 
        <div class="right">
+        <h3 class="uppercase">i design digital & <br> print production.</h3><br>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Sit deserunt voluptate ducimus culpa tempora necessitatibus 
             dolores sequi exercitationem similique nesciunt.</p>
@@ -62,7 +63,7 @@
               dolores sequi exercitationem similique nesciunt.</p>
           <input type="button" value="Check my Work">
        </div>
-      </section>
+      </section> 
 
                       <!--what i do-->
 
@@ -91,12 +92,32 @@
           <p>Css service</p>
         </li>
       </ul>
+      <ul>
+        <li>
+          <i class="fab fa-html5"></i>
+          <p>Html service</p>
+        </li>
+
+        <li>
+          <i class="fab fa-css3-alt"></i>
+          <p>Css service</p>
+        </li>
+
+        <li>
+          <i class="fab fa-css3-alt"></i>
+          <p>Css service</p>
+        </li>
+
+        <li>
+          <i class="fab fa-css3-alt"></i>
+          <p>Css service</p>
+        </li>
+      </ul>
        </section>
 
             <!-- section count -->
 
-        <section>
-           <h3>Count</h3>
+        <section class="count">
            <ul>
              <li>
                <a href="#">7492</a>
@@ -122,34 +143,54 @@
       
          <!--section work-->
 
-         <section id="work">
+         <section id="work" class="worke">
           <h6>my work</h6>
           <h3>Latest Work</h3>
           <ul>
             <li>
-              <a href="#">
-                <img src="/" alt="work image">
-                <h3 class="uppercase">mobile mockup design</h3>
-              </a>
+              
+                <img src="https://images.pexels.com/photos/3671152/pexels-photo-3671152.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="work image">
+                <h3 class="design">Mobile mockup <br> design</h3>
+            
             </li>
             <li>
-              <a href="#">
-                <img src="/" alt="work image">
-                <h3 class="uppercase">mobile mockup design</h3>
-              </a>
+              
+                <img src="https://images.pexels.com/photos/2679350/pexels-photo-2679350.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="work image">
+                <h3 class="design">Mobile mockup <br> design</h3>
+              
             </li>
             <li>
-              <a href="#">
-                <img src="/" alt="work image">
-                <h3 class="uppercase">mobile mockup design</h3>
-              </a>
+        
+                <img src="https://images.pexels.com/photos/221159/pexels-photo-221159.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="work image">
+                <h3 class="design">Mobile mockup <br> design</h3>
+  
+            </li>
+          </ul>
+          <ul>
+            <li>
+              
+                <img src="https://images.pexels.com/photos/3671152/pexels-photo-3671152.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="work image">
+                <h3 class="design">Mobile mockup <br> design</h3>
+            
+            </li>
+            <li>
+              
+                <img src="https://images.pexels.com/photos/2679350/pexels-photo-2679350.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="work image">
+                <h3 class="design">Mobile mockup <br> design</h3>
+              
+            </li>
+            <li>
+        
+                <img src="https://images.pexels.com/photos/221159/pexels-photo-221159.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="work image">
+                <h3 class="design">Mobile mockup <br> design</h3>
+  
             </li>
           </ul>
          </section>
 
          <!--what i say-->
         
-         <section>
+         <section class="whatIsay">
            <h6>what say</h6>
            <h3>My Happy Clients</h3>
            <ul>
