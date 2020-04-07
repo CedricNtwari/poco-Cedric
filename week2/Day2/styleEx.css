@@ -1,0 +1,195 @@
+html{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    
+}
+.uppercase{
+    text-transform: uppercase;
+}
+#img{ 
+    padding-left: 50px;
+}
+.first{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+}
+.first li{
+    display: inline-block;
+    padding: 10px;
+    padding-right: 20px;
+ 
+}
+.first ul{
+    float: right;
+}
+.first a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.first li:hover{
+    background-color: lightslategray;
+}
+span{
+    color: whitesmoke;
+}
+#home{
+    max-width: 100%;
+    position: relative; 
+    background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"); 
+    height: 550px;
+}
+.second{
+    position: relative;
+    top: 40%;
+    left: 30%;
+}
+.second li{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    list-style-type: none;
+}
+.second h3,p{
+    padding-bottom: 20px;
+}
+.second input{
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(39, 79, 153);
+    color: white;
+}
+.second input:hover{
+  border: 1px solid black;
+}
+
+
+
+
+         /* section about */
+
+ #about{
+    width: 100%;
+    height: 300px;
+    background :white;
+    font-size : 10px;
+}
+.left{
+    position: relative;
+    left: 20%;
+    padding: 30px;
+}
+/* .left a{
+    position: absolute;
+    left: 20%; 
+}
+.left i{
+    display: inline-block;
+    line-height: 10px;
+    font-size: 10px;
+} */
+.right{
+    position: absolute;
+    left: 40%;
+    top: 80%;
+    padding: 40px;
+    margin: 65px;
+    color: gray;
+}
+
+.right input{
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.right input:hover{
+    border: 1px solid gray;
+    color: gray;
+}
+       /* what i do */
+
+#whatIdo{
+    width: 100%;
+    height: 400px;
+    background :#f2f2f2;
+    box-sizing: border-box;
+    font-size : 10px;
+    text-align: center;
+}
+#whatIdo h6,h3{
+    line-height: 30px;
+    font-size: 20px;
+    color: gray;
+}
+#whatIdo h6{
+    line-height: 60px;
+    font-size: 20px;
+    color: gray;
+}
+#whatIdo ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    color: gray;
+}
+#whatIdo li{
+    background-color: white;
+    cursor: pointer;
+    width: 15%;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+   list-style-type: none;
+}
+#whatIdo i{
+    background-color: black;
+    border-radius: 50%;
+    height: 40px;
+    width: 70px;
+}
+     /* count */
+
+.count{
+    width: 100%;
+    height: 100px;
+    background :rgba(5, 1, 22, 0.986);
+    box-sizing: border-box;
+    font-size : 10px;
+    text-align: center;
+}
+.count ul{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.count li{
+    color: white;
+    text-underline-position: below;
+    list-style-type: none;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.count a{
+    color: white;
+    text-underline-position: below;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
