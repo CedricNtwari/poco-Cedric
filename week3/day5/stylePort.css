@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+.carousel{
+    border: 1px solid black;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.slider{
+    height: 100%;
+    display: flex;
+    width: 400%;
+    /* border: 1px solid red; */
+    transition: all 0.3s;
+}
+.slider li{
+    flex-basis: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider img{
+    height: 100%;
+    width: 100%;
+}
+.text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: space-around;
+    color: white;
+}
+
+.text input{
+   width: 100px;
+   height: 20px;
+   margin: 10px;
+   border-radius: 20px;
+}
+.controls .arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+}
+.arrow.left{
+    left: 10px;
+}
+.arrow.right{
+    right: 10px;
+}
+#down{
+    left: 50%;
+    top: 90%;
+}
+.controls .arrow:hover{
+    background-color: lightslategray;
+}
+.controls .arrow:active{
+    background-color: lightsteelblue;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+}
+nav ul{
+    text-align: right;
+}
+#logo{
+    position: absolute;
+    text-align: left;
+    color: white;
+    left: 10%;
+    cursor: pointer;
+}
+#logo:hover{
+    border-bottom: 1px solid white;
+}
+#logo:active{
+    padding: 1px;
+    color: lightgray;
+}
+.navbar li{
+    display: inline-block;
+    left: 90%;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.navbar a:hover{
+  border-bottom: 1px solid white;
+}
+.navbar a:active{
+    border-bottom: 1px solid lightgray;
+    color: lightgray;
+  }
+.navbar span{
+    color: white;
+}
+#ham{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
