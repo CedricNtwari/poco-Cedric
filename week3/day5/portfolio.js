@@ -17,5 +17,5 @@ leftArrow.addEventListener('click',function(){
 });
 
 downArrow.addEventListener('click', function(){
-    
+    downArrow.style.id ="about";
 });

@@ -103,16 +103,23 @@ span{
     color: gray;
 }
 
-.right input{
+.about.right input{
     padding: 10px;
     margin: 20px;
     border: 1px solid black;
     border-radius: 20px;
     cursor: pointer;
 }
-.right input:hover{
+.about.right input:hover{
     border: 1px solid gray;
     color: gray;
+}
+.about.right h3::before{
+    content: "";
+    width: 50px;
+    height: 5px;
+   color: gray;
+
 }
        /* what i do */
 
