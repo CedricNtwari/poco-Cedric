@@ -1,0 +1,18 @@
+Retirement Calculator
+ . Input: Current and retire age 
+ . Procedure:
+ . Output: retire year
+
+ Test cases / Examples
+=======================
+Input empty or negative or decimal number: error meassage
+Input signs: error meassage
+Input words: error
+
+What is your age? 25
+At what age would you like to retire? 65
+You have 40 years left until you can retire.
+It's 2020, so you can retire in 2060.
+
+
+
