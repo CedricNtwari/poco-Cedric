@@ -1,0 +1,21 @@
+Procedure
+============
+Start
+    Initialize currentAge = 0;
+    Initialize retireAge = 0;
+    Initialize retireYear = 0;
+    Initialize currentYear= 0;
+
+ Prompt for CurrentAge with ("Please enter your age: ")
+ Prompt for retiretAge with ("Please enter your age to retire: ")
+
+ Validation that CurrentAge and retireAge are positive integers,
+  not words, not empty space, not decimal,not zero, not same input
+
+  Modulo Calculation of retire year
+   currentYear = Date.getFullYear()
+
+   retireYear = retiretAge - currentAge
+
+   Display as "It is " + currentAge + ", so you can retire in " + retireYear
+End
