@@ -10,8 +10,11 @@ var futureYear = 0;
     currentAge = prompt("Please enter your age as number, e.g. 23 ");
 
  }
- if(isNaN(retireAge) && retireAge != ""){
+ else if(isNaN(retireAge) && retireAge != ""){
     retireAge = prompt("Please enter your age to retire as number, e.g. 60 ");
+ }
+ else if(currentAge.slice(0,1) == "_" || currentAge.slice(0,1) == "@"){
+    window.alert("Please enter only a number, e.g. 30");
  }
 
  var date = new Date();
