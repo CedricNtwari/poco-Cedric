@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Book List</h1>
+    <!-- <script src="/week5/day2/main.js"></script> -->
+
+    <script>
+        var books = [
+  {
+    title: 'The Design of EveryDay Things',
+    author: 'Don Norman',
+    alreadyRead: false
+  }, {
+    title: 'The Most Human Human',
+    author: 'Brian Christian',
+    alreadyRead: true
+  }];
+  // for(let i=0;i<books.length;i++){
+  //   document.write(books[i].title + "<br>");
+  // }
+
+   Object.values(books).forEach(function myFunction(a){
+      
+       document.write("<ul><li>"+a.title + "<br>"+"</li></ul>");
+   });
+
+   let img = document.createElement("img");
+   img.src= "https://media.gettyimages.com/photos/single-red-book-on-a-white-surface-picture-id173015527?s=612x612";
+   let src = document.querySelector("li");
+   src.appendChild(img);
+
+    </script>
+</body>
+</html>
